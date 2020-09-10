@@ -1,0 +1,393 @@
+\documentclass[11pt,twoside]{book}
+\usepackage[
+        %showframe,
+	paperwidth=362pt,
+	paperheight=516pt,
+	textwidth=246pt
+]{geometry}
+\usepackage{fontspec}
+\defaultfontfeatures{Mapping=tex-text}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\setmainfont{Agmena Pro Regular}
+\newfontfamily\hiragana{YuMincho Medium}
+\newfontfamily\regular{Agmena Pro Regular}
+\newfontfamily\regularit{Agmena Pro Italic}
+\newfontfamily\book{Agmena Pro Book}
+\newfontfamily\bookit{Agmena Pro Book Italic}
+\newfontfamily\semibold{Agmena Pro SemiBold}
+\newfontfamily\semiboldit{Agmena Pro SemiBold Italic}
+\newfontfamily\bold{Agmena Pro Bold}
+\newfontfamily\boldit{Agmena Pro Bold Italic}
+\usepackage{polyglossia}
+\setdefaultlanguage{english}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{anyfontsize}
+\usepackage{verbatimbox}
+\usepackage{datetime}
+\usepackage{fancyhdr}
+\usepackage{newunicodechar}
+\usepackage{afterpage}
+\usepackage{eso-pic}
+\usepackage[pdfpagelayout=TwoPageRight]{hyperref}
+\author{Sean Cooper}
+\title{PCD Tokyo 2020}
+\date{May 2020}
+
+\pagestyle{fancy}
+\fancyhf{}
+\AtEndDocument{\thispagestyle{empty}}
+
+\newcommand\Cover{%
+\put(0,0){%
+\parbox[b][\paperheight]{\paperwidth}{%
+\vfill
+\centering
+\includegraphics[width=\paperwidth,height=\paperheight,%
+keepaspectratio]{hot-dusk-06de0090-df65-4497-baf3-7febdc05224a.png}%
+\vfill
+}}}
+
+\newcommand\Back{%
+\put(0,0){%
+\parbox[b][\paperheight]{\paperwidth}{%
+\vfill
+\centering
+\includegraphics[width=\paperwidth,height=\paperheight,%
+keepaspectratio]{hot-dusk-bb8e0d80-fdc7-4c67-8c89-74067aea1f24.png}%
+\vfill
+}}}
+
+\begin{document}
+\pagenumbering{gobble}
+\renewcommand{\headrulewidth}{0pt}
+\AddToShipoutPicture*{\Cover}
+\afterpage{\null\newpage}
+\afterpage{\null\newpage}
+\maketitle
+\newpage
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\renewcommand{\headrulewidth}{0.66pt}
+\newpage
+\fancyhead[LE,RO]{\fontsize{10}{12}\selectfont April 1}
+\fancyhead[RE,LO]{\fontsize{10}{12}\selectfont {\hiragana あ} Hole}
+\fancyfoot[CE,CO]{\fontsize{10}{12}\selectfont \thepage}
+\begin{figure}[!ht]
+\includegraphics[width=246pt]{cool-bw-584b0184-4796-4afb-97be-4979e0eb428d.png}
+\end{figure}
+\newpage
+\fancyhead[LE,RO]{\fontsize{10}{12}\selectfont April 2}
+\fancyhead[RE,LO]{\fontsize{10}{12}\selectfont {\hiragana い} Dead-end}
+\fancyfoot[CE,CO]{\fontsize{10}{12}\selectfont \thepage}
+\begin{figure}[!ht]
+\includegraphics[width=246pt]{warm-grey-df09d3c5-549a-492e-b372-d92941ecd7c5.png}
+\end{figure}
+\newpage
+\fancyhead[LE,RO]{\fontsize{10}{12}\selectfont April 3}
+\fancyhead[RE,LO]{\fontsize{10}{12}\selectfont {\hiragana う} Urashima Taro}
+\fancyfoot[CE,CO]{\fontsize{10}{12}\selectfont \thepage}
+\begin{figure}[!ht]
+\includegraphics[width=246pt]{oz-48181b9b-be9a-4c11-b281-49495de4d7e5.png}
+\end{figure}
+\newpage
+\fancyhead[LE,RO]{\fontsize{10}{12}\selectfont April 4}
+\fancyhead[RE,LO]{\fontsize{10}{12}\selectfont {\hiragana え} Alien}
+\fancyfoot[CE,CO]{\fontsize{10}{12}\selectfont \thepage}
+\begin{figure}[!ht]
+\includegraphics[width=246pt]{constructivist-59a43a95-05c5-47a2-a9a7-87ece977aab0.png}
+\end{figure}
+\newpage
+\fancyhead[LE,RO]{\fontsize{10}{12}\selectfont April 5}
+\fancyhead[RE,LO]{\fontsize{10}{12}\selectfont {\hiragana お} Audience}
+\fancyfoot[CE,CO]{\fontsize{10}{12}\selectfont \thepage}
+\begin{figure}[!ht]
+\includegraphics[width=246pt]{candy-d89e78fa-58b5-4572-aed3-47fe37d9ef93.png}
+\end{figure}
+\newpage
+\fancyhead[LE,RO]{\fontsize{10}{12}\selectfont April 6}
+\fancyhead[RE,LO]{\fontsize{10}{12}\selectfont {\hiragana か} Chinese Character}
+\fancyfoot[CE,CO]{\fontsize{10}{12}\selectfont \thepage}
+\begin{figure}[!ht]
+\includegraphics[width=246pt]{warm-bw-90bd7ba2-2eaa-4579-a305-98c1de664277.png}
+\end{figure}
+\newpage
+\fancyhead[LE,RO]{\fontsize{10}{12}\selectfont April 7}
+\fancyhead[RE,LO]{\fontsize{10}{12}\selectfont {\hiragana き} Madness}
+\fancyfoot[CE,CO]{\fontsize{10}{12}\selectfont \thepage}
+\begin{figure}[!ht]
+\includegraphics[width=246pt]{constructivist-a93d80bf-e596-4fab-8dfd-7630c3b41296.png}
+\end{figure}
+\newpage
+\fancyhead[LE,RO]{\fontsize{10}{12}\selectfont April 8}
+\fancyhead[RE,LO]{\fontsize{10}{12}\selectfont {\hiragana く} Black}
+\fancyfoot[CE,CO]{\fontsize{10}{12}\selectfont \thepage}
+\begin{figure}[!ht]
+\includegraphics[width=246pt]{cool-bw-296d7c2a-a3ea-486e-822d-baf73ea251e6.png}
+\end{figure}
+\newpage
+\fancyhead[LE,RO]{\fontsize{10}{12}\selectfont April 9}
+\fancyhead[RE,LO]{\fontsize{10}{12}\selectfont {\hiragana け} Research Institution}
+\fancyfoot[CE,CO]{\fontsize{10}{12}\selectfont \thepage}
+\begin{figure}[!ht]
+\includegraphics[width=246pt]{sci-fi-35a0f90b-73f2-4246-a03d-3400d7672d98.png}
+\end{figure}
+\newpage
+\fancyhead[LE,RO]{\fontsize{10}{12}\selectfont April 10}
+\fancyhead[RE,LO]{\fontsize{10}{12}\selectfont {\hiragana こ} Alternately}
+\fancyfoot[CE,CO]{\fontsize{10}{12}\selectfont \thepage}
+\begin{figure}[!ht]
+\includegraphics[width=246pt]{warm-bw-1e6a7a5e-76bb-480f-8e22-cea19f638d69.png}
+\end{figure}
+\newpage
+\fancyhead[LE,RO]{\fontsize{10}{12}\selectfont April 11}
+\fancyhead[RE,LO]{\fontsize{10}{12}\selectfont {\hiragana さ} Salamander}
+\fancyfoot[CE,CO]{\fontsize{10}{12}\selectfont \thepage}
+\begin{figure}[!ht]
+\includegraphics[width=246pt]{lemon-b3a5f4a7-c042-4894-a977-e7d249368de6.png}
+\end{figure}
+\newpage
+\fancyhead[LE,RO]{\fontsize{10}{12}\selectfont April 12}
+\fancyhead[RE,LO]{\fontsize{10}{12}\selectfont {\hiragana し} Autosuggestion}
+\fancyfoot[CE,CO]{\fontsize{10}{12}\selectfont \thepage}
+\begin{figure}[!ht]
+\includegraphics[width=246pt]{slate-and-peach-d44c6da6-a2aa-4341-b072-daaa5d4e5226.png}
+\end{figure}
+\newpage
+\fancyhead[LE,RO]{\fontsize{10}{12}\selectfont April 13}
+\fancyhead[RE,LO]{\fontsize{10}{12}\selectfont {\hiragana す} Number}
+\fancyfoot[CE,CO]{\fontsize{10}{12}\selectfont \thepage}
+\begin{figure}[!ht]
+\includegraphics[width=246pt]{constructivist-5-ad6ce6fd-3c58-4195-97ed-d5483c17e18b.png}
+\end{figure}
+\newpage
+\fancyhead[LE,RO]{\fontsize{10}{12}\selectfont April 14}
+\fancyhead[RE,LO]{\fontsize{10}{12}\selectfont {\hiragana せ} Omniscient}
+\fancyfoot[CE,CO]{\fontsize{10}{12}\selectfont \thepage}
+\begin{figure}[!ht]
+\includegraphics[width=246pt]{candyfloss-9d317a02-51d5-47b4-ab20-df9b8154d844.png}
+\end{figure}
+\newpage
+\fancyhead[LE,RO]{\fontsize{10}{12}\selectfont April 15}
+\fancyhead[RE,LO]{\fontsize{10}{12}\selectfont {\hiragana そ} Improvisation}
+\fancyfoot[CE,CO]{\fontsize{10}{12}\selectfont \thepage}
+\begin{figure}[!ht]
+\includegraphics[width=246pt]{oz-877d6762-fde1-41dc-bc1f-7dfa7e64e796.png}
+\end{figure}
+\newpage
+\fancyhead[LE,RO]{\fontsize{10}{12}\selectfont April 16}
+\fancyhead[RE,LO]{\fontsize{10}{12}\selectfont {\hiragana た} Ellipse}
+\fancyfoot[CE,CO]{\fontsize{10}{12}\selectfont \thepage}
+\begin{figure}[!ht]
+\includegraphics[width=246pt]{hot-dusk-3d713ec5-55fd-4d07-bb69-80d4d42a7879.png}
+\end{figure}
+\newpage
+\fancyhead[LE,RO]{\fontsize{10}{12}\selectfont April 17}
+\fancyhead[RE,LO]{\fontsize{10}{12}\selectfont {\hiragana ち} Ringleader}
+\fancyfoot[CE,CO]{\fontsize{10}{12}\selectfont \thepage}
+\begin{figure}[!ht]
+\includegraphics[width=246pt]{copper-d2c2979f-1948-42d2-9da5-ebc72cf611f6.png}
+\end{figure}
+\newpage
+\fancyhead[LE,RO]{\fontsize{10}{12}\selectfont April 18}
+\fancyhead[RE,LO]{\fontsize{10}{12}\selectfont {\hiragana つ} Painful}
+\fancyfoot[CE,CO]{\fontsize{10}{12}\selectfont \thepage}
+\begin{figure}[!ht]
+\includegraphics[width=246pt]{spy-3ff21414-509a-449e-8f52-01b2895b0bf2.png}
+\end{figure}
+\newpage
+\fancyhead[LE,RO]{\fontsize{10}{12}\selectfont April 19}
+\fancyhead[RE,LO]{\fontsize{10}{12}\selectfont {\hiragana て} Dead Space}
+\fancyfoot[CE,CO]{\fontsize{10}{12}\selectfont \thepage}
+\begin{figure}[!ht]
+\includegraphics[width=246pt]{hot-dusk-094433e2-f155-4134-9677-debcb43cf986.png}
+\end{figure}
+\newpage
+\fancyhead[LE,RO]{\fontsize{10}{12}\selectfont April 20}
+\fancyhead[RE,LO]{\fontsize{10}{12}\selectfont {\hiragana と} Corn}
+\fancyfoot[CE,CO]{\fontsize{10}{12}\selectfont \thepage}
+\begin{figure}[!ht]
+\includegraphics[width=246pt]{salmon-lemon-61f4112a-d5df-40b5-a7c2-6a9c0161d3a6.png}
+\end{figure}
+\newpage
+\fancyhead[LE,RO]{\fontsize{10}{12}\selectfont April 21}
+\fancyhead[RE,LO]{\fontsize{10}{12}\selectfont {\hiragana な} Raw Egg}
+\fancyfoot[CE,CO]{\fontsize{10}{12}\selectfont \thepage}
+\begin{figure}[!ht]
+\includegraphics[width=246pt]{warm-bw-3374052e-8dac-4167-8cec-e17cf98d5fce.png}
+\end{figure}
+\newpage
+\fancyhead[LE,RO]{\fontsize{10}{12}\selectfont April 22}
+\fancyhead[RE,LO]{\fontsize{10}{12}\selectfont {\hiragana に} Two Years Ago}
+\fancyfoot[CE,CO]{\fontsize{10}{12}\selectfont \thepage}
+\begin{figure}[!ht]
+\includegraphics[width=246pt]{salmon-lemon-f957cc6c-120c-4d18-9adf-a21e6ae6e5d8.png}
+\end{figure}
+\newpage
+\fancyhead[LE,RO]{\fontsize{10}{12}\selectfont April 23}
+\fancyhead[RE,LO]{\fontsize{10}{12}\selectfont {\hiragana ぬ} (Wild Card)}
+\fancyfoot[CE,CO]{\fontsize{10}{12}\selectfont \thepage}
+\begin{figure}[!ht]
+\includegraphics[width=246pt]{orange-bf4c5af2-d76f-439d-a2a5-676b520f3706.png}
+\end{figure}
+\newpage
+\fancyhead[LE,RO]{\fontsize{10}{12}\selectfont April 24}
+\fancyhead[RE,LO]{\fontsize{10}{12}\selectfont {\hiragana ね} Neon Lights}
+\fancyfoot[CE,CO]{\fontsize{10}{12}\selectfont \thepage}
+\begin{figure}[!ht]
+\includegraphics[width=246pt]{lemon-5c7fd634-1583-4f27-b423-b9e091172b19.png}
+\end{figure}
+\newpage
+\fancyhead[LE,RO]{\fontsize{10}{12}\selectfont April 25}
+\fancyhead[RE,LO]{\fontsize{10}{12}\selectfont {\hiragana の} Remainder}
+\fancyfoot[CE,CO]{\fontsize{10}{12}\selectfont \thepage}
+\begin{figure}[!ht]
+\includegraphics[width=246pt]{warm-grey-f5a508ec-24f7-431f-b95c-612b97db7a1c.png}
+\end{figure}
+\newpage
+\fancyhead[LE,RO]{\fontsize{10}{12}\selectfont April 26}
+\fancyhead[RE,LO]{\fontsize{10}{12}\selectfont {\hiragana は} Buzzing}
+\fancyfoot[CE,CO]{\fontsize{10}{12}\selectfont \thepage}
+\begin{figure}[!ht]
+\includegraphics[width=246pt]{candyfloss-b35bb9bc-92cd-4f84-9936-6630a03ad6c9.png}
+\end{figure}
+\newpage
+\fancyhead[LE,RO]{\fontsize{10}{12}\selectfont April 27}
+\fancyhead[RE,LO]{\fontsize{10}{12}\selectfont {\hiragana ひ} Essential}
+\fancyfoot[CE,CO]{\fontsize{10}{12}\selectfont \thepage}
+\begin{figure}[!ht]
+\includegraphics[width=246pt]{contructivist-real-17065e6b-cbe3-403b-acb4-58d5f267117b.png}
+\end{figure}
+\newpage
+\fancyhead[LE,RO]{\fontsize{10}{12}\selectfont April 28}
+\fancyhead[RE,LO]{\fontsize{10}{12}\selectfont {\hiragana ふ} Blizzard}
+\fancyfoot[CE,CO]{\fontsize{10}{12}\selectfont \thepage}
+\begin{figure}[!ht]
+\includegraphics[width=246pt]{blizzard-7d8e21ed-8ae9-4eb0-b18c-8ebb89d6e51f.png}
+\end{figure}
+\newpage
+\fancyhead[LE,RO]{\fontsize{10}{12}\selectfont April 29}
+\fancyhead[RE,LO]{\fontsize{10}{12}\selectfont {\hiragana へ} Plane / Snake}
+\fancyfoot[CE,CO]{\fontsize{10}{12}\selectfont \thepage}
+\begin{figure}[!ht]
+\includegraphics[width=246pt]{copper-fbf9314d-ef04-4cf0-b9a4-882c898f61a2.png}
+\end{figure}
+\newpage
+\fancyhead[LE,RO]{\fontsize{10}{12}\selectfont April 30}
+\fancyhead[RE,LO]{\fontsize{10}{12}\selectfont {\hiragana ほ} Saturation}
+\fancyfoot[CE,CO]{\fontsize{10}{12}\selectfont \thepage}
+\begin{figure}[!ht]
+\includegraphics[width=246pt]{slate-and-peach-19837770-700c-42df-a84b-afe576d29a88.png}
+\end{figure}
+\newpage
+\fancyhead[LE,RO]{\fontsize{10}{12}\selectfont May 1}
+\fancyhead[RE,LO]{\fontsize{10}{12}\selectfont {\hiragana ま} Spin}
+\fancyfoot[CE,CO]{\fontsize{10}{12}\selectfont \thepage}
+\begin{figure}[!ht]
+\includegraphics[width=246pt]{salmon-lemon-d401eea0-1575-48d9-b143-558a03223929.png}
+\end{figure}
+\newpage
+\fancyhead[LE,RO]{\fontsize{10}{12}\selectfont May 2}
+\fancyhead[RE,LO]{\fontsize{10}{12}\selectfont {\hiragana み} Mixer}
+\fancyfoot[CE,CO]{\fontsize{10}{12}\selectfont \thepage}
+\begin{figure}[!ht]
+\includegraphics[width=246pt]{contructivist-real-10d72d22-19fc-43b3-86a4-a9c598d43b31.png}
+\end{figure}
+\newpage
+\fancyhead[LE,RO]{\fontsize{10}{12}\selectfont May 3}
+\fancyhead[RE,LO]{\fontsize{10}{12}\selectfont {\hiragana む} Pointless Resistance}
+\fancyfoot[CE,CO]{\fontsize{10}{12}\selectfont \thepage}
+\begin{figure}[!ht]
+\includegraphics[width=246pt]{candy-d4112a91-964a-4f90-9531-e332df7e4010.png}
+\end{figure}
+\newpage
+\fancyhead[LE,RO]{\fontsize{10}{12}\selectfont May 4}
+\fancyhead[RE,LO]{\fontsize{10}{12}\selectfont {\hiragana め} Eyeball}
+\fancyfoot[CE,CO]{\fontsize{10}{12}\selectfont \thepage}
+\begin{figure}[!ht]
+\includegraphics[width=246pt]{lime-fd2ef661-2044-4580-baab-f5fac9ad50c3.png}
+\end{figure}
+\newpage
+\fancyhead[LE,RO]{\fontsize{10}{12}\selectfont May 5}
+\fancyhead[RE,LO]{\fontsize{10}{12}\selectfont {\hiragana も} Witness}
+\fancyfoot[CE,CO]{\fontsize{10}{12}\selectfont \thepage}
+\begin{figure}[!ht]
+\includegraphics[width=246pt]{constructivist-075b714d-45c4-4957-b227-e424e7ef4a36.png}
+\end{figure}
+\newpage
+\fancyhead[LE,RO]{\fontsize{10}{12}\selectfont May 6}
+\fancyhead[RE,LO]{\fontsize{10}{12}\selectfont {\hiragana や} Yamata no Orochi}
+\fancyfoot[CE,CO]{\fontsize{10}{12}\selectfont \thepage}
+\begin{figure}[!ht]
+\includegraphics[width=246pt]{constructivist-f4a93ec0-b037-4a84-aa80-23efa55a14b7.png}
+\end{figure}
+\newpage
+\fancyhead[LE,RO]{\fontsize{10}{12}\selectfont May 7}
+\fancyhead[RE,LO]{\fontsize{10}{12}\selectfont {\hiragana ゆ} Missing}
+\fancyfoot[CE,CO]{\fontsize{10}{12}\selectfont \thepage}
+\begin{figure}[!ht]
+\includegraphics[width=246pt]{cool-bw-fa4b9823-a7ad-4b64-ae97-4819edad5bdb.png}
+\end{figure}
+\newpage
+\fancyhead[LE,RO]{\fontsize{10}{12}\selectfont May 8}
+\fancyhead[RE,LO]{\fontsize{10}{12}\selectfont {\hiragana よ} Margin}
+\fancyfoot[CE,CO]{\fontsize{10}{12}\selectfont \thepage}
+\begin{figure}[!ht]
+\includegraphics[width=246pt]{mocha-ae2231cf-62a9-47a2-a1af-e212edcd8ed3.png}
+\end{figure}
+\newpage
+\fancyhead[LE,RO]{\fontsize{10}{12}\selectfont May 9}
+\fancyhead[RE,LO]{\fontsize{10}{12}\selectfont {\hiragana ら} Lifeline}
+\fancyfoot[CE,CO]{\fontsize{10}{12}\selectfont \thepage}
+\begin{figure}[!ht]
+\includegraphics[width=246pt]{azure-d38857fa-8a34-4764-ac5a-b768e03ae4c3.png}
+\end{figure}
+\newpage
+\fancyhead[LE,RO]{\fontsize{10}{12}\selectfont May 10}
+\fancyhead[RE,LO]{\fontsize{10}{12}\selectfont {\hiragana り} Dragon's Palace}
+\fancyfoot[CE,CO]{\fontsize{10}{12}\selectfont \thepage}
+\begin{figure}[!ht]
+\includegraphics[width=246pt]{rubine-942e8ffa-2fd7-46ff-8ff9-d07be8c48ac3.png}
+\end{figure}
+\newpage
+\fancyhead[LE,RO]{\fontsize{10}{12}\selectfont May 11}
+\fancyhead[RE,LO]{\fontsize{10}{12}\selectfont {\hiragana る} Rule}
+\fancyfoot[CE,CO]{\fontsize{10}{12}\selectfont \thepage}
+\begin{figure}[!ht]
+\includegraphics[width=246pt]{pistachio-and-peach-5f4443b7-3754-40f6-86a6-72e17e8956df.png}
+\end{figure}
+\newpage
+\fancyhead[LE,RO]{\fontsize{10}{12}\selectfont May 12}
+\fancyhead[RE,LO]{\fontsize{10}{12}\selectfont {\hiragana れ} Inferior}
+\fancyfoot[CE,CO]{\fontsize{10}{12}\selectfont \thepage}
+\begin{figure}[!ht]
+\includegraphics[width=246pt]{lemon-3805018e-842b-4196-95b2-8257549c82d0.png}
+\end{figure}
+\newpage
+\fancyhead[LE,RO]{\fontsize{10}{12}\selectfont May 13}
+\fancyhead[RE,LO]{\fontsize{10}{12}\selectfont {\hiragana ろ} Romantic}
+\fancyfoot[CE,CO]{\fontsize{10}{12}\selectfont \thepage}
+\begin{figure}[!ht]
+\includegraphics[width=246pt]{candyfloss-52eebd54-1f14-45d7-bdb9-93f53688575f.png}
+\end{figure}
+\newpage
+\fancyhead[LE,RO]{\fontsize{10}{12}\selectfont May 14}
+\fancyhead[RE,LO]{\fontsize{10}{12}\selectfont {\hiragana わ} Cotton}
+\fancyfoot[CE,CO]{\fontsize{10}{12}\selectfont \thepage}
+\begin{figure}[!ht]
+\includegraphics[width=246pt]{cool-bw-d13ca946-8246-420f-afa3-c388a6c5f2b4.png}
+\end{figure}
+\newpage
+\fancyhead[LE,RO]{ }
+\fancyhead[RE,LO]{\fontsize{10}{12}\selectfont {\hiragana わ} Cotton}
+\pagenumbering{gobble}
+\renewcommand{\headrulewidth}{0pt}
+\AddToShipoutPicture*{\Back}
+\begin{figure}[hbt!]
+\centering
+\includegraphics[width=88pt]{on-white@2x.png}
+ \end{figure}
+\end{document}
